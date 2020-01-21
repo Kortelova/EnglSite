@@ -1,0 +1,120 @@
+body {
+    background-color: #e7ebf0;
+}
+
+.container {
+    background-color: aliceblue;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+#smf
+{
+    
+}
+#sendmessage:hover
+{
+    cursor: pointer;
+}
+#users_icon {
+    height: 90vh;
+
+}
+.round {
+    border-radius: 50%; /* Радиус скругления */
+   
+   }
+.dateM
+{
+    color:gray;
+    font-size: 12px;
+    margin: 5px;
+}
+.MessageC
+{  clear: both;
+   width: 100%;
+    
+    
+   
+      word-wrap: break-word;
+    font-size: 16px;
+    
+}
+.cards {
+    transition: background-color 0.5s ease;
+    
+   height: 42vh;
+
+    text-align: center;
+}
+
+.cards:hover {
+    background-color: gray;
+}
+
+#enterfield {
+    margin-top: 50vh;
+}
+
+
+#field_message
+{
+    padding: 10px;
+}
+nav{
+    background-color: rgb(137, 5, 132);
+   
+
+}
+.groupClass:hover{
+    cursor: pointer;
+    
+}
+.user_m_id:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}.user_m_id{
+   color:#575fa2;
+   font-weight: bold;
+}
+.dateM{
+    color:#b3b3b3;
+}
+
+#field_message {
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(91, 99, 105, 0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(137, 5, 132, 0.57); 
+}
+.MessageAlight{
+    text-align: right;
+}
+.collection a.collection-item{
+        color:#574b6e;
+    }
+    .material-icons
+    {
+          color:#574b6e;
+    }
+
+    
